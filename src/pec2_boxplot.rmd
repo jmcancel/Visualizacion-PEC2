@@ -2,7 +2,9 @@
 title: "PEC 2 Visualización"
 author: "Cancel Martinez, Jon Mikel"
 date: "19/4/2022"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
