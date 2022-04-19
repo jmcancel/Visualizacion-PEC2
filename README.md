@@ -2,6 +2,6 @@
  
 Enlaces a los ejemplos de las técnicas asignadas:
 
- Infograma: https://infogram.com/app/#/edit/098dcaa9-6e65-4a8f-89fe-57fad4c13542
+ Infograma: https://infogram.com/pec-2-covid-1hdw2jpv3kznp2l?live
 
  Isotype Chart: 
