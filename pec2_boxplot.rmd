@@ -1,0 +1,29 @@
+---
+title: "PEC 2 Visualización"
+author: "Cancel Martinez, Jon Mikel"
+date: "19/4/2022"
+output: html_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load_libraries, include=FALSE}
+library(knitr)
+library(stringr)
+library(VIM)
+library(png)
+```
+
+
+En este documento rmd, vamos a mostrar un ejemplo de gráfico box plot. Los box plot, o diagramas de caja, son representaciones gráficas de los valores que toma una variable. En este gráfico se incluye también la media de los valores de la variable,  
+
+```{r load_file}
+df <- read.csv("3_DE_MARZO.csv", sep = ";")
+summary(df)
+head(df)
+```
+
+```{r boxplot}
+boxplot(log(df$NO..µg.m3.))
+```
